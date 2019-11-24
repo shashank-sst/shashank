@@ -1,0 +1,153 @@
+/**
+ * Index stylesheet for Mutw
+ *
+ * @author      Rogier van der Linde <rogier.vanderlinde@kahosl.be>
+ *
+ */
+
+/* =============================================
+ * LAYOUT
+ =============================================== */
+
+main .wrapper {
+	display: flex;
+	flex-flow: row nowrap;	
+}
+
+main .column {
+	width: 30%;
+}
+
+main .column + .column {
+	margin-left: 5%;
+}
+
+/* =============================================
+ * BANNER
+ =============================================== */
+#banner {
+	background-image: url(../img/mutwhero.png);
+	background-position: 50% 20%;
+	background-repeat: no-repeat;
+	background-size: 20%;
+	background-color: #62717d;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	padding: 200px;
+	padding-top: 150px;
+	scroll-padding-bottom: 20px;
+
+}
+
+/* =============================================
+ * MAIN
+ =============================================== */
+h3{
+	font-size: 40px;
+	color:#3d5aac;
+	padding: 10px;
+	text-align: center;
+}
+
+.column img{
+	width: 100%;
+}
+
+a.lnk_more{
+	border-radius: 5px;
+	float: right;
+}
+
+a.lnk_more::after{
+	content: "»" ;
+}
+
+a.lnk_more:hover{
+	background-color: orange;
+	color: white;
+	transition-duration:0.2s;
+}
+
+#socialmedia {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+ul#socialmedia{
+	text-align: center;
+	list-style-type: none;
+}
+
+a.facebook{
+	background-image: url(../img/icon_facebook.png);/* set background image */
+	background-size: 100% 100%; /* stretch background image */
+	display: block; /* only block level elements can have width / height */
+	height: 8rem; /* stretch link to desired height */
+	overflow: hidden;  /* hide text outside */
+	text-indent: 100%; /* push text outside */
+	white-space: nowrap; /* single line of text */
+	width: 8rem; /* stretch link to desired width */
+}
+
+a.twitter{
+	background-image: url(../img/icon_twitter.png); /* set background image */
+	background-size: 100% 100%; /* stretch background image */
+	display: block; /* only block level elements can have width / height */
+	height: 8rem; /* stretch link to desired height */
+	overflow: hidden;  /* hide text outside */
+	text-indent: 100%; /* push text outside */
+	white-space: nowrap; /* single line of text */
+	width: 8rem; /* stretch link to desired width */
+}
+
+a.pinterest{
+	background-image: url(../img/icon_pinterest.png); /* set background image */
+	background-size: 100% 100%; /* stretch background image */
+	display: block; /* only block level elements can have width / height */
+	height: 8rem; /* stretch link to desired height */
+	overflow: hidden;  /* hide text outside */
+	text-indent: 100%; /* push text outside */
+	white-space: nowrap; /* single line of text */
+	width: 8rem; /* stretch link to desired width */
+}
+
+.column:last-child p {
+	text-align: center;
+}
+
+a.facebook:hover{
+	background-image: url(../img/icon_facebook_over.png);/* set background image */
+	background-size: 100% 100%; /* stretch background image */
+	display: block; /* only block level elements can have width / height */
+	height: 8rem; /* stretch link to desired height */
+	overflow: hidden;  /* hide text outside */
+	text-indent: 100%; /* push text outside */
+	white-space: nowrap; /* single line of text */
+	width: 8rem; /* stretch link to desired width */
+}
+
+a.twitter:hover{
+	background-image: url(../img/icon_twitter_over.png);/* set background image */
+	background-size: 100% 100%; /* stretch background image */
+	display: block; /* only block level elements can have width / height */
+	height: 8rem; /* stretch link to desired height */
+	overflow: hidden;  /* hide text outside */
+	text-indent: 100%; /* push text outside */
+	white-space: nowrap; /* single line of text */
+	width: 8rem; /* stretch link to desired width */
+}
+
+a.pinterest:hover{
+	background-image: url(../img/icon_pinterest_over.png);/* set background image */
+	background-size: 100% 100%; /* stretch background image */
+	display: block; /* only block level elements can have width / height */
+	height: 8rem; /* stretch link to desired height */
+	overflow: hidden;  /* hide text outside */
+	text-indent: 100%; /* push text outside */
+	white-space: nowrap; /* single line of text */
+	width: 8rem; /* stretch link to desired width */
+}
