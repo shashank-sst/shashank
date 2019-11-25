@@ -50,11 +50,11 @@ header {
 }
 
 h1 a {
-	background-image: url(../img/mutwhero.png);
+	background-image: url(../img/mutwlogo.png);
 	background-size: 100% 100%; /* stretch background image */
 	display: block; /* only block level elements can have width / height */
 	background-repeat: no-repeat;
-  	height: 16.1rem; /* stretch link to desired height */
+  	height: 13rem; /* stretch link to desired height */
  	overflow: hidden;  /* hide text outside */
   	text-indent: 100%; /* push text outside */
  	white-space: nowrap; /* single line of text */
