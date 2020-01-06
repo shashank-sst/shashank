@@ -1,0 +1,97 @@
+body {
+    font:Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+#banner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	font-size: 20px;
+	margin: auto;
+	width: 53%;
+}
+
+.branding a{
+	text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color:violet;
+
+}
+
+header nav ul {
+	margin-top: 50px;
+}
+
+header nav li {
+	display: inline-block;
+	font-size: 18px;
+	padding: 5px;
+}
+
+header nav li a {
+	color: black;
+	text-decoration: none;
+}
+
+header nav li a:hover{
+	color: #DF593E;
+}
+
+header{
+    color: #ffffff;
+    padding-top: 1em;
+    min-height: 4em;
+	border-bottom: #e8491d 3px solid;
+
+}
+
+.sushiproductslist h2{
+    font-family: 'Amiri', serif;
+	border-bottom: 2px solid #DF593E;
+
+}
+
+.ItemTitle img {
+	width: 40%;
+    height: 40%;
+}
+
+
+.sushiproductslist{
+    font-size: 20px;
+	width: 53%;
+    margin: auto;
+    overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center center;
+	flex-wrap: wrap;
+}
+
+.ItemList{
+	display: grid;
+	align-content: center;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	grid-column-gap: 40px;
+}
+
+.item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+footer .wrapper {
+	text-align: center;
+	padding: 15px;
+	letter-spacing: 2px;
+	margin:	auto;
+	color:  #e8491d;
+	background-color: #f4f4f4;
+}
