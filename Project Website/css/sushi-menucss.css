@@ -11,14 +11,14 @@ body {
 	flex-wrap: wrap;
 	font-size: 20px;
 	margin: auto;
-	width: 53%;
+	width: 70%;
+
 }
 
 .branding a{
 	text-decoration: none;
     font-family: 'Dancing Script', cursive;
-    color:violet;
-
+	color:rebeccapurple;
 }
 
 header nav ul {
@@ -54,7 +54,41 @@ header{
 
 }
 
-.ItemTitle img {
+
+
+.ItemTitle1 img {
+	width: 50%;
+    height: 40%;
+}
+.ItemTitle2 img {
+	width: 50%;
+    height: 40%;
+}
+.ItemTitle3 img {
+	width: 50%;
+    height: 35%;
+}
+.ItemTitle4 img {
+	width: 50%;
+    height: 40%;
+}
+.ItemTitle5 img {
+	width: 50%;
+    height: 25%;
+}
+.ItemTitle6 img {
+	width: 50%;
+    height: 30%;
+}
+.ItemTitle7 img {
+	width: 50%;
+    height: 40%;
+}
+.ItemTitle8 img {
+	width: 50%;
+    height: 40%;
+}
+.ItemTitle9 img {
 	width: 40%;
     height: 40%;
 }
@@ -62,21 +96,31 @@ header{
 
 .sushiproductslist{
     font-size: 20px;
-	width: 53%;
+	width: 80%;
     margin: auto;
     overflow: hidden;
 	display: flex;
 	justify-content: space-between;
-	align-items: center center;
+	align-items: center;
 	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1768px){
+	.ItemList{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
 }
 
 .ItemList{
 	display: grid;
-	align-content: center;
+	align-content:left;
 	grid-template-columns: auto auto auto;
-	grid-gap: 10px;
 	grid-column-gap: 40px;
+
 }
 
 .item{
@@ -88,10 +132,12 @@ header{
 
 
 footer .wrapper {
+	padding: 25px;
+	font-size: 18px;
+	margin: auto;
+	width: 53%;
 	text-align: center;
-	padding: 15px;
 	letter-spacing: 2px;
-	margin:	auto;
 	color:  #e8491d;
 	background-color: #f4f4f4;
 }

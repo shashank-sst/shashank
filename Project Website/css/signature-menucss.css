@@ -11,14 +11,14 @@ body {
 	flex-wrap: wrap;
 	font-size: 20px;
 	margin: auto;
-	width: 53%;
+	width: 70%;
+
 }
 
 .branding a{
 	text-decoration: none;
     font-family: 'Dancing Script', cursive;
-    color:violet;
-
+	color:rebeccapurple;
 }
 
 header nav ul {
@@ -51,12 +51,12 @@ header{
 
 .Menu{
 	font-size: 20px;
-	width: 53%;
+	width: 80%;
     margin: auto;
     overflow: hidden;
 	display: flex;
 	justify-content: space-between;
-	align-items: center center;
+	align-items: center;
 	flex-wrap: wrap;
 }
 
@@ -69,13 +69,26 @@ header{
 }
 
 
+@media screen and (max-width: 1440px){
+
+	.Menu-container {
+		margin: auto;
+		overflow: hidden;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+}
+
 .grid-item {
 	font-size: 20px 0;
-	text-align: center;
+	text-align:center;
 	grid-template-rows: auto; 
 	grid-column-gap: 20px;
 	grid-row-gap:40px;
-	max-width: 600px;
+	max-width:auto;
 }
 
 .Menutitle .Menuprice{
@@ -85,6 +98,16 @@ header{
 	flex-wrap: wrap;
 }
 
+.Menu h2{
+	font-family: 'Amiri', serif;
+	border-bottom: 2px solid #DF593E;
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+	    width: 100%;
+	}
+  }
 
 
 .Sushipic img {

@@ -12,7 +12,7 @@ body {
 	flex-wrap: wrap;
 	font-size: 20px;
 	margin: auto;
-	width: 53%;
+	width: 70%;
 }
 
 
@@ -24,6 +24,7 @@ body {
 
 header nav ul {
 	margin-top: 50px;
+	
 }
 
 header nav li {
@@ -41,6 +42,7 @@ header nav li a:hover{
 	color: #DF593E;
 }
 
+
 header{
 	background-position: 50% 20%;
     color: #ffffff;
@@ -49,6 +51,9 @@ header{
 	border-bottom: #e8491d 3px solid;
 
 }
+
+
+
 main{
  	background-position: 20% 30%;
 	background-attachment: fixed;
@@ -56,9 +61,11 @@ main{
 }
 
 .container{
+	display: grid;
+	grid-template-columns: auto auto;
 	font-size: 20px;
-	width: 53%;
-    margin: auto;
+	width: 60%;
+	margin: auto;
     overflow: hidden;
 	display: flex;
 	justify-content: space-between;
@@ -71,6 +78,8 @@ main{
 	border-bottom: 2px solid #DF593E;
 
 }
+
+
 
 .orderinfo a{
 	text-decoration: none;

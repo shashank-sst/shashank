@@ -11,13 +11,12 @@ body {
 	flex-wrap: wrap;
 	font-size: 20px;
 	margin: auto;
-	width: 53%;
+	width: 70%;
 }
 
 .branding a{
 	text-decoration: none;
     font-family: 'Dancing Script', cursive;
-    color:violet;
 
 }
 
@@ -52,14 +51,13 @@ header{
 	display: grid;
 	grid-template-columns: auto auto;
 	font-size: 20px;
-	width: 53%;
+	width: 60%;
 	margin: auto;
-	/*
     overflow: hidden;
 	display: flex;
 	justify-content: space-between;
 	align-items: center center;
-	flex-wrap: wrap;*/
+	flex-wrap: wrap;
 
 }
 
@@ -67,6 +65,15 @@ header{
 	font-family: 'Amiri', serif;
 	border-bottom: 2px solid #DF593E;
 
+}
+
+.Contact a{
+	color:#3b5998;
+	text-decoration: none;
+}
+
+.Contact a:hover{
+	text-decoration: underline;
 }
 
 
@@ -85,7 +92,7 @@ form input[type=text] {
 	background-color: rgb(240, 236, 236);
 }
 form textarea {
-	width: 60%;
+	width: 80%;
 	padding: 50px;
 	display: block;
 	border: 1px solid rgb(240, 236, 236);
@@ -94,7 +101,7 @@ form textarea {
 	background-color: rgb(240, 236, 236);
 }
 form button[type=submit] {
-    background-color:#c0627b;
+    background-color:	#DC143C;
 	color: white;
 	padding: 12px 20px;
 	border: none;
@@ -102,12 +109,7 @@ form button[type=submit] {
 	border-radius: 4px;
 	cursor: pointer;
 }
-form p:first-child {
-	font-style: italic;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	text-align: left;
-}
+
 
 
 footer .wrapper {
