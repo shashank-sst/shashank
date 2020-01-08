@@ -67,6 +67,7 @@ header{
 
 }
 
+
 .Contact a{
 	color:#3b5998;
 	text-decoration: none;
@@ -75,6 +76,8 @@ header{
 .Contact a:hover{
 	text-decoration: underline;
 }
+
+
 
 
 form p {

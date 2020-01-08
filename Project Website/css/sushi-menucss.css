@@ -56,42 +56,12 @@ header{
 
 
 
-.ItemTitle1 img {
+.ItemTitle img {
 	width: 50%;
     height: 40%;
 }
-.ItemTitle2 img {
-	width: 50%;
-    height: 40%;
-}
-.ItemTitle3 img {
-	width: 50%;
-    height: 35%;
-}
-.ItemTitle4 img {
-	width: 50%;
-    height: 40%;
-}
-.ItemTitle5 img {
-	width: 50%;
-    height: 25%;
-}
-.ItemTitle6 img {
-	width: 50%;
-    height: 30%;
-}
-.ItemTitle7 img {
-	width: 50%;
-    height: 40%;
-}
-.ItemTitle8 img {
-	width: 50%;
-    height: 40%;
-}
-.ItemTitle9 img {
-	width: 40%;
-    height: 40%;
-}
+
+
 
 
 .sushiproductslist{
@@ -105,22 +75,27 @@ header{
 	flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1768px){
-	.ItemList{
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		flex-wrap: wrap;
-	}
-
-}
 
 .ItemList{
+	
 	display: grid;
 	align-content:left;
 	grid-template-columns: auto auto auto;
 	grid-column-gap: 40px;
 
+}
+
+@media (max-width: 1100px)  {	
+	.ItemList{
+		font-size: 18px;
+		grid-template-columns: auto auto;
+	}
+}
+@media (max-width: 700px)  {	
+	.ItemList{
+		display: block;
+		grid-template-columns: none;
+	}
 }
 
 .item{

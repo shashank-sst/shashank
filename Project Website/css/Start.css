@@ -79,7 +79,11 @@ main{
 
 }
 
-
+@media screen and (max-width: 1440px){
+	.aboutus{
+		text-align: center;
+	}
+}
 
 .orderinfo a{
 	text-decoration: none;
